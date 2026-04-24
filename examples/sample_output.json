@@ -1,0 +1,32 @@
+[
+  {
+    "paper_id": "2301.00000",
+    "arxiv_id": "2301.00000",
+    "venue_or_source": "arXiv",
+    "title": "Example Paper Title",
+    "authors": ["First Author", "Second Author"],
+    "year": "2023",
+    "abstract": "This paper studies graph neural networks for node classification.",
+    "task": "node classification",
+    "method_name": "lightweight attention message passing",
+    "contributions": ["Combines neighborhood aggregation with a lightweight attention mechanism."],
+    "research_problem": "The paper studies a specific research problem.",
+    "motivation": "Existing methods have limitations that motivate this work.",
+    "methodology": "The paper proposes a model or algorithm.",
+    "datasets": ["Dataset A"],
+    "baselines": ["Baseline A"],
+    "metrics": ["Accuracy"],
+    "main_results": "The proposed method improves over selected baselines.",
+    "limitations": "The method has limitations discussed by the authors.",
+    "future_work": "Future work is not specified in the sample.",
+    "citation_context": "The paper compares against common graph neural network baselines.",
+    "related_papers": ["GCN", "GraphSAGE"],
+    "keywords": ["keyword one", "keyword two"],
+    "confidence": {
+      "datasets": 0.9,
+      "baselines": 0.8,
+      "metrics": 0.9,
+      "methodology": 0.8
+    }
+  }
+]

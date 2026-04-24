@@ -1,0 +1,27 @@
+[
+  {
+    "arxiv_id": "1706.03762",
+    "title": "Attention Is All You Need",
+    "focus": "Transformer architecture, machine translation baselines, BLEU metrics"
+  },
+  {
+    "arxiv_id": "1810.04805",
+    "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+    "focus": "Language understanding benchmarks, pretraining, fine-tuning"
+  },
+  {
+    "arxiv_id": "2005.11401",
+    "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+    "focus": "Retrieval augmented generation, open-domain QA, knowledge-intensive tasks"
+  },
+  {
+    "arxiv_id": "2005.14165",
+    "title": "Language Models are Few-Shot Learners",
+    "focus": "Few-shot evaluation, language modeling, broad NLP benchmark coverage"
+  },
+  {
+    "arxiv_id": "1710.10903",
+    "title": "Graph Attention Networks",
+    "focus": "Graph neural networks, attention, citation-network node classification"
+  }
+]

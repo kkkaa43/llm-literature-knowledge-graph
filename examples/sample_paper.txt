@@ -1,0 +1,22 @@
+Example Paper Title
+
+ABSTRACT
+
+This paper studies graph neural networks for node classification. The method uses a message passing architecture and evaluates performance on Cora and Citeseer using accuracy.
+
+INTRODUCTION
+
+Graph neural networks are widely used for learning representations from graph-structured data. Existing methods are often compared with GCN and GraphSAGE on citation network benchmarks.
+
+METHOD
+
+The proposed approach combines neighborhood aggregation with a lightweight attention mechanism.
+
+EXPERIMENTS
+
+Experiments are conducted on Cora and Citeseer. The main metric is accuracy. Baselines include GCN and GraphSAGE.
+
+CONCLUSION
+
+The method improves node classification performance on common citation network datasets.
+

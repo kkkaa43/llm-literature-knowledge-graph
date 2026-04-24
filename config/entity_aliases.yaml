@@ -1,0 +1,21 @@
+aliases:
+  GPT4: GPT-4
+  GPT 4: GPT-4
+  GPT-4 model: GPT-4
+  CIFAR10: CIFAR-10
+  CIFAR 10: CIFAR-10
+  ImageNet1K: ImageNet
+  Image Net: ImageNet
+  F1 score: F1
+  F1-score: F1
+  accuracy score: Accuracy
+types:
+  Dataset:
+    ImageNet-1K: ImageNet
+    imagenet 1k dataset: ImageNet
+    MS COCO: COCO
+  Metric:
+    top-1 accuracy: Accuracy
+    exact match: EM
+  Method:
+    gpt4: GPT-4

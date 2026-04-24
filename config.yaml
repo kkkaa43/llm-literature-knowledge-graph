@@ -1,0 +1,15 @@
+pipeline:
+  query: retrieval augmented generation
+  paper_ids: null
+  id_file: null
+  max_results: 5
+  sort_by: relevance
+  data_dir: data
+  output_dir: outputs
+  log_path: outputs/pipeline.log
+  provider: mock
+  model: null
+  max_chars: 25000
+  retries: 3
+  metadata_only: false
+  overwrite_parse: false
