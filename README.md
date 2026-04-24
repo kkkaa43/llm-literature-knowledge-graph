@@ -1,5 +1,10 @@
 # LLM-Powered Academic Literature Analyzer & Knowledge Graph
 
+[![Python](https://img.shields.io/badge/python-3.11%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+[![Streamlit](https://img.shields.io/badge/demo-Streamlit-FF4B4B?logo=streamlit&logoColor=white)](https://streamlit.io/)
+[![Knowledge Graph](https://img.shields.io/badge/graph-NetworkX-2E7D32)](https://networkx.org/)
+[![LLM Providers](https://img.shields.io/badge/LLM-OpenRouter%20%7C%20Gemini-6f42c1)](https://openrouter.ai/)
+
 An end-to-end research paper mining pipeline that searches arXiv, parses PDFs, extracts structured research metadata with LLMs, and builds an interactive literature knowledge graph.
 
 The project is designed as a practical research tool rather than a generic summarizer: it turns unstructured academic papers into schema-validated JSON/CSV records and graph relationships between papers, datasets, methods, baselines, metrics, and keywords.
@@ -99,6 +104,26 @@ The demo supports:
 - Displaying the generated knowledge graph with native Streamlit/Altair rendering.
 - Downloading extracted JSON/CSV, graph HTML, GraphML, nodes CSV, edges CSV, extraction failures, quality warnings, quality report, and Neo4j Cypher export.
 - Viewing recent pipeline logs from `outputs/pipeline.log`.
+
+## Online Demo Deployment
+
+The app is ready to deploy on Streamlit Community Cloud, Render, or Hugging Face Spaces. For public demos, use the mock provider by default so no API keys are exposed.
+
+Recommended Streamlit Community Cloud settings:
+
+```text
+Repository: kkkaa43/llm-literature-knowledge-graph
+Branch: main
+Main file path: app/streamlit_app.py
+Python version: 3.11
+```
+
+Add provider API keys only as private platform secrets, never in code or committed files:
+
+```text
+OPENROUTER_API_KEY=...
+GEMINI_API_KEY=...
+```
 
 ## Testing
 
