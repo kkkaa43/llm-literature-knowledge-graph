@@ -125,6 +125,8 @@ OPENROUTER_API_KEY=...
 GEMINI_API_KEY=...
 ```
 
+Render deployment is also configured through [`render.yaml`](render.yaml). See [`docs/deployment.md`](docs/deployment.md) for both Streamlit Cloud and Render setup notes.
+
 ## Testing
 
 Run the unit tests:
@@ -340,6 +342,8 @@ outputs/pipeline.log
 │   ├── sample_output.json
 │   └── sample_paper.txt
 ├── docs/
+│   ├── deployment.md
+│   ├── resume_bullets.md
 │   └── demo_screenshot.png
 ├── outputs/
 │   └── .gitkeep
@@ -356,6 +360,8 @@ outputs/pipeline.log
 │   └── utils.py
 ├── .env.example
 ├── .gitignore
+├── render.yaml
+├── runtime.txt
 ├── config.yaml
 ├── config/
 │   └── entity_aliases.yaml
