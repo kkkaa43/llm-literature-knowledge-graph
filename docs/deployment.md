@@ -1,5 +1,7 @@
 # Deployment
 
+Live demo: [https://llm-literature-kg.streamlit.app/](https://llm-literature-kg.streamlit.app/)
+
 The public demo should default to the mock provider so visitors can run the app without API keys.
 
 ## Streamlit Community Cloud

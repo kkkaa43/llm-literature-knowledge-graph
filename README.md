@@ -1,7 +1,7 @@
 # LLM-Powered Academic Literature Analyzer & Knowledge Graph
 
 [![Python](https://img.shields.io/badge/python-3.11%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
-[![Streamlit](https://img.shields.io/badge/demo-Streamlit-FF4B4B?logo=streamlit&logoColor=white)](https://streamlit.io/)
+[![Streamlit](https://img.shields.io/badge/demo-Live%20Streamlit-FF4B4B?logo=streamlit&logoColor=white)](https://llm-literature-kg.streamlit.app/)
 [![Knowledge Graph](https://img.shields.io/badge/graph-NetworkX-2E7D32)](https://networkx.org/)
 [![LLM Providers](https://img.shields.io/badge/LLM-OpenRouter%20%7C%20Gemini-6f42c1)](https://openrouter.ai/)
 
@@ -84,6 +84,8 @@ See [`examples/sample_output.json`](examples/sample_output.json) for a committed
 
 ## Streamlit Demo
 
+[Live demo: https://llm-literature-kg.streamlit.app/](https://llm-literature-kg.streamlit.app/)
+
 ![Streamlit demo screenshot](docs/demo_screenshot.png)
 
 Launch the dashboard:
@@ -106,6 +108,8 @@ The demo supports:
 - Viewing recent pipeline logs from `outputs/pipeline.log`.
 
 ## Online Demo Deployment
+
+The public Streamlit demo is live at [https://llm-literature-kg.streamlit.app/](https://llm-literature-kg.streamlit.app/).
 
 The app is ready to deploy on Streamlit Community Cloud, Render, or Hugging Face Spaces. For public demos, use the mock provider by default so no API keys are exposed.
 
